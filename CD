@@ -84,3 +84,9 @@ local args = {
 game:GetService("ReplicatedStorage"):WaitForChild("RemoteService"):WaitForChild("Handler"):FireServer(unpack(args))
 end
 end
+wait(1)
+for i,v in pairs(workspace.Towers:GetChildren()) do 
+ if v:IsA("Model") then
+v:SetAttribute("AttackType", "Weakest")
+end
+end
