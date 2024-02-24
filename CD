@@ -99,6 +99,6 @@ end
 wait(1)
 for i,v in pairs(workspace.Towers:GetChildren()) do 
  if v:IsA("Model") then
-v:SetAttribute("AttackType", "Weakest")
+v:SetAttribute("AttackType", "FUCK")
 end
 end
